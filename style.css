@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: #262626;
+    color: darkgray;
+}
+
+h1 {
+    width: 300px;
+    margin: 80px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:  10px 10px 20px #181818,
+             -10px -10px 20px #343434;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    min-width: 45px;
+    height: 45px;
+    margin: 3px;
+    padding: 5px;
+    color: #ebe3d6;
+    border-radius: 19px;
+    background: linear-gradient(145deg, #222222, #292929);
+    box-shadow:  10px 10px 20px #181818,
+             -10px -10px 20px #343434;
+    font-size: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background: transparent;
+    color: white;
+}
+
+#grid {
+    margin: 20px auto;
+}
+
+.grid-row {
+    display: flex;
+    padding: 5px;
+}
+
+.grid-item {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 19px;
+    border: 1px solid #343434;
+    background-color: #ebe3d6;
+    color: #181818;
+    font-size: 2rem;
+}
+
+.grey {
+    background-color: rgb(171, 167, 167);
+}
+
+.green {
+    background-color: green;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.button-reset {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
